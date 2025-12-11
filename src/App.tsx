@@ -1,9 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Login from './Login.tsx'
 import Clicker from './Clicker.tsx'
+import dayjs from 'dayjs';
 
 function App() {
   const [timeNow, setTime] = useState(dayjs().format('HH:mm:ss'))
